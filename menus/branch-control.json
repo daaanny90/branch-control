@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle branch-control",
+        "command": "branch-control:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "branch-control",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "branch-control:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

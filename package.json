@@ -1,0 +1,19 @@
+{
+  "name": "branch-control",
+  "main": "./lib/branch-control",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "branch-control:toggle"
+  },
+  "repository": "https://github.com/atom/branch-control",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-select-list": "^0.7.2",
+    "git-branch": "^2.0.1"
+  }
+}
